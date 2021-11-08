@@ -1,0 +1,40 @@
+.row>div{
+    background-color: #006cf9;
+    color: white;
+    height: 40px;
+    border: solid 2px white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 40px;
+}
+.row .green{
+    background-color: chartreuse;
+    height: 35px;
+    border: solid 4px #006cf9;
+    display: flex;
+    line-height: 35px;
+}
+.col-12{
+    height: 80px;
+    background-color: #006cf9;
+    border: solid 2px white;
+}
+.row .double{
+    height: 80px;
+}
+.row .position-middle{
+    align-self: center;
+}
+.row .position-bottom{
+    align-self: flex-end;
+}
+.row .nested{
+    height: 70px;
+}
+.around{
+    justify-content: space-around;
+}
+.between{
+    justify-content: space-between;
+}
